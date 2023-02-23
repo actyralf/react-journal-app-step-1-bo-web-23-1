@@ -1,0 +1,8 @@
+.button {
+  padding: calc(var(--spacing) * 1.5) calc(var(--spacing) * 5);
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--color-nemo);
+  color: white;
+  font-weight: bold;
+}
