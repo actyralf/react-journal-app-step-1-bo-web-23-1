@@ -1,0 +1,10 @@
+.badge {
+  display: inline;
+  background-color: var(--color-water-10);
+  border-radius: 12px;
+  padding: 0 calc(var(--spacing) * 1.5);
+}
+.badge--active {
+  background-color: var(--color-nemo);
+  color: white;
+}

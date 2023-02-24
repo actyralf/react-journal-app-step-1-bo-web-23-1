@@ -1,0 +1,9 @@
+.tab {
+  font-weight: bold;
+  display: flex;
+  gap: var(--spacing);
+}
+
+.tab--active {
+  color: var(--color-nemo);
+}

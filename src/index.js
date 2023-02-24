@@ -1,10 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "./assets/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf";
+import "./assets/fonts/Open_Sans/static/OpenSans/OpenSans-BoldItalic.ttf";
+import "./assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf";
+import "./assets/fonts/Open_Sans/static/OpenSans/OpenSans-Italic.ttf";
+import "./assets/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf";
+import "./assets/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBoldItalic.ttf";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: calc(var(--spacing) * 2);
+  gap: calc(var(--spacing) * 4);
 }
 
 .entry-form__content-container {

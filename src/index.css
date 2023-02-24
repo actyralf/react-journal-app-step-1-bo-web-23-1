@@ -1,3 +1,46 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/Open_Sans/static/OpenSans/OpenSans-Italic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/Open_Sans/static/OpenSans/OpenSans-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
 :root {
   /* Used for texts (+ footer background) */
   --color-granite: #252629;
@@ -29,6 +72,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--color-granite);
+  background-color: var(--color-foam);
   padding: 0
     calc(max(calc(var(--spacing) * 2), (100vw - var(--content-max-width)) / 2));
 }

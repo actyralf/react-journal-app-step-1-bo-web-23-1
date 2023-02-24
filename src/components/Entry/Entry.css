@@ -1,0 +1,32 @@
+.entry {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) * 3);
+  padding-bottom: calc(var(--spacing) * 2);
+}
+
+.entry__title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.entry h4 {
+  font-size: 1.1em;
+}
+
+.entry h4::before,
+.entry h4::after {
+  content: '"';
+}
+
+.entry__line {
+  border-top: 1px solid var(--water-10);
+  margin: calc(var(--spacing) * 2) 0 calc(var(--spacing) * 2) 0;
+}

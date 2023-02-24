@@ -1,4 +1,4 @@
 import "./Footer.css";
-export default function Footer() {
-  return <div className="footer">Footer</div>;
+export default function Footer({ text }) {
+  return <div className="footer">{text}</div>;
 }

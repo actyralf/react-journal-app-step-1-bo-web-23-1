@@ -1,0 +1,5 @@
+.tab-bar ul {
+  list-style-type: none;
+  display: flex;
+  gap: calc(var(--spacing) * 4);
+}
